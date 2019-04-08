@@ -11,14 +11,6 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>rh-all</id>
-        <url>https://maven.repository.redhat.com/ga</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>rh-all-plugins-ea</id>
         <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
         <source>SETTINGS</source>
@@ -27,8 +19,16 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>internal-repository-7.0</id>
-        <url>http://download.devel.redhat.com/brewroot/repos/jb-bxms-7.0-maven-build/latest/maven/</url>
+        <id>jboss-ga-repository</id>
+        <url>https://maven.repository.redhat.com/ga/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>rh-all-ea</id>
+        <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -51,9 +51,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>/Users/agiertli/.m2/repository</url>
-        <source>LOCAL</source>
+        <id>internal-repository-6.4</id>
+        <url>http://download.devel.redhat.com/brewroot/repos/jb-bxms-6.4-build/latest/maven/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
@@ -67,24 +67,24 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>internal-repository-6.4</id>
-        <url>http://download.devel.redhat.com/brewroot/repos/jb-bxms-6.4-build/latest/maven/</url>
+        <id>internal-repository-7.0</id>
+        <url>http://download.devel.redhat.com/brewroot/repos/jb-bxms-7.0-maven-build/latest/maven/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-ga-repository</id>
-        <url>https://maven.repository.redhat.com/ga/</url>
-        <source>SETTINGS</source>
+        <id>local</id>
+        <url>/Users/agiertli/.m2/repository</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>rh-all-ea</id>
-        <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
+        <id>rh-all</id>
+        <url>https://maven.repository.redhat.com/ga</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
