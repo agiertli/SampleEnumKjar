@@ -1,0 +1,2 @@
+'Product.region' : ['India','Japan']
+'Product.name[region]' : '(new org.redhat.appdev.enumloader.EnumLoader()).getProductCodes("@{region}")'
