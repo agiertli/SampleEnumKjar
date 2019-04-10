@@ -62,7 +62,7 @@
       <header>Print It</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>System.out.println($name);</text>
+          <text>System.out.println(&quot;Rule Fired, drug name:&quot;+$name+&quot;, drug region:&quot;+$region);</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
