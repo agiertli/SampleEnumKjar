@@ -27,7 +27,6 @@
           <header>Country</header>
           <constraintValueType>1</constraintValueType>
           <factField>region</factField>
-          <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
           <binding>$region</binding>
@@ -43,7 +42,6 @@
           <header>Drug name</header>
           <constraintValueType>1</constraintValueType>
           <factField>name</factField>
-          <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
           <binding>$name</binding>
@@ -104,7 +102,11 @@
     <entries/>
   </auditLog>
   <imports>
-    <imports/>
+    <imports>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>az.data.model.Product</type>
+      </org.kie.soup.project.datamodel.imports.Import>
+    </imports>
   </imports>
   <packageName>com</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
