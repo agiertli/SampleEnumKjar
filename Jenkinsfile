@@ -7,7 +7,9 @@ agent {
     stages {
         stage('Build') { 
             steps {
-                sh 'mvn -B -DskipTests clean package' 
+                configFileProvider([configFile(fileId: 'maven-settings-kjar', variable: 'MAVEN_SETTINGS_XML')]) {
+
+                sh 'mvn -B -s $MAVEN_SETTINGS_XML -DskipTests clean package' 
             }
         }
     }
