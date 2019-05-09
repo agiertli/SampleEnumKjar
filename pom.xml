@@ -13,7 +13,7 @@
     <repository>
       <id>nexus-repo</id>
       <name>maven repo</name>
-      <url>http://localhost:8081/repository/maven-snapshots</url>
+      <url>http://nexus:8081/repository/maven-snapshots</url>
       <layout>default</layout>
     </repository>
   </distributionManagement>
