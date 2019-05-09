@@ -48,7 +48,7 @@
             </repository>
             <repository>
                <id>nexus-repo-releases</id>
-               <url>http://nexus-pam-trial.apps.waterford-5265.openshiftworkshop.com/repository/maven-releases</url>
+               <url>http://nexus:8081/repository/maven-releases</url>
                <layout>default</layout>
                <releases>
                   <enabled>true</enabled>
@@ -61,7 +61,7 @@
             </repository>
             <repository>
                <id>nexus-repo</id>
-               <url>http://nexus-pam-trial.apps.waterford-5265.openshiftworkshop.com/repository/maven-snapshots</url>
+               <url>http://nexus:8081/repository/maven-snapshots</url>
                <layout>default</layout>
                <releases>
                   <enabled>true</enabled>
