@@ -36,6 +36,13 @@
       <version>7.33.0.Final-redhat-00002</version>
       <scope>provided</scope>
     </dependency>
+       
+       <dependency>	 
+      <groupId>org.redhat.appdev</groupId>	   
+      <artifactId>enum-loader</artifactId>	     
+      <version>1</version>	     
+    </dependency>
+       
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
