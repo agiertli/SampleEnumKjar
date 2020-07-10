@@ -219,7 +219,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Ibalgin</valueString>
+        <valueString>Acylpirin</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -248,7 +248,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Panadol</valueString>
+        <valueString>Acylpirin</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -277,7 +277,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Paralen</valueString>
+        <valueString>Acylpirin</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -306,7 +306,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Hilak</valueString>
+        <valueString>Acylpirin</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -335,7 +335,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Kinedril</valueString>
+        <valueString>Celaskon</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -364,7 +364,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Panadol</valueString>
+        <valueString>Coldrex</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
